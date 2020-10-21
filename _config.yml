@@ -6,15 +6,15 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-title:            Hyde
-tagline:          'Saaket Agashe'
+title:            Saaket Agashe
+tagline:          'Computer Science student interested in Machine Learning, Deep Learning and Natural Language Processing.'
 description:      'Computer Science student interested in Machine Learning, Deep Learning and Natural Language Processing.'
 url:              https://saa1605.github.io
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Saaket Agashe'
+  url:            saa1605.github.io
 
 paginate:         5
 
@@ -22,7 +22,7 @@ paginate:         5
 version:          2.1.0
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/saa1605/saa1605.github.io
 
 plugins:
     - jekyll-paginate
