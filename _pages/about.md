@@ -6,11 +6,7 @@ layout: single
 last_modified_at: 2020-05-01T10:15:22-04:00
 ---
 
-## The title
-Hello Good Morning 
+## Hello, I am Saaket Agashe
 
-## The Body
-Why
+I am currently a graduate student at the University of California, Santa Cruz. I am interested in Language Technologies and Machine Learning. 
 
-## Rest of it
-How

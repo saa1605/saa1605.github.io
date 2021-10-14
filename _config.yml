@@ -20,7 +20,7 @@ title                    : "Saaket Agashe"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Saaket Agashe"
-description              : "An amazing website."
+description              : "Welcome"
 url                      : "https://saa1605.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "saa1605/saa1605.github.io"
@@ -95,8 +95,8 @@ analytics:
 author:
   name             : "Saaket Agashe"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "Hello there"
-  location         : "Somewhere"
+  bio              : "Graduate Student, UC Santa Cruz"
+  location         : "Santa Cruz, CA"
   email            :
   links:
     - label: "Email"
