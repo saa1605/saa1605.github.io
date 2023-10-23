@@ -1,0 +1,17 @@
+title: Saaket Agashe
+email: saagashe@ucsc.edu
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://saa1605.github.io" # the base hostname & protocol for your site
+twitter_username: saa1605
+github_username: saa1605 
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing and publishing
+exclude:
+  - Gemfile
+  - Gemfile.lock
