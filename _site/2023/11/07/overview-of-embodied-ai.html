@@ -1,0 +1,27 @@
+<p>layout: post
+title:  “Overview of Embodied AI”
+date:   2023-10-23 11:43:00 -0400
+categories: embodied-ai
+—</p>
+
+<h1 id="overview-of-embodied-ai">Overview of Embodied AI</h1>
+
+<h2 id="rearrangement-and-mobile-manipulation">Rearrangement and Mobile Manipulation</h2>
+
+<h2 id="foundation-models-for-embodied-ai">Foundation Models for Embodied AI</h2>
+
+<p>VC-1 - Search for a Visual Cortex for embodied AI 
+They introduce a benchmark called CORTEXBENCH consisting of 17 tasks spanning low-level locomotion, table-top manipulation of rigid and articulated objects, dextrous manipulation, multi-finger coordinated manipulation, indoor visual navigation and mobile manipulation. 
+PVR - Pretrained Visual Representations</p>
+
+<ol>
+  <li>
+    <p>PVRs are better than training from scratch, but there isn’t an existing dominant PVR that works well on all the tasks, they work well on the subset of tasks that they were designed for. (So different winner for mobile manipulation vs table top manipulation etc.)</p>
+  </li>
+  <li>
+    <p>They create varying sizes of datasets spanning all the tasks. The largest model VC-1 trained on all the data outperforms the best existing PVR <em>on average</em> but it is not universally better. Smaller and focused model beat it out on their own target tasks.</p>
+  </li>
+  <li>
+    <p>Naively scaling dataset size and diversity does not improve performance uniformly across benchmarks.</p>
+  </li>
+</ol>
