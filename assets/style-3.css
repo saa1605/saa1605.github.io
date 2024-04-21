@@ -1,3 +1,31 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.header {
+    font-size: 24px;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 10px;
+    margin-top: 20px; /* Reduced margin-top for closer header */
+}
+
+.about p {
+    margin-top: 0; /* Remove top margin from paragraphs in about */
+    margin-bottom: 10px; /* Reduced bottom margin for tighter paragraph spacing */
+}
+
+.name, .papertitle {
+    color: #0056b3;
+    font-weight: bold;
+}
+
+.menulink:hover {
+    text-decoration: underline;
+    color: #01447e;
+}
+
 .instilogo {
     height: 50px;
     filter: grayscale(20%);
@@ -83,3 +111,4 @@ a:hover {
           color: #111;
           text-decoration: underline;
     } */
+

@@ -4,8 +4,8 @@ const fontweights = [300, 400]
 
 // Color properties
 const basecolor = "#888";
-const accentcolor = "#222";
-const highlightcolor = "#111";
+const accentcolor = "#888";
+const highlightcolor = "#888";
 
 // const basecolor = "#888";
 // const accentcolor = "#222";
@@ -32,7 +32,7 @@ const menudecoration = "none";
 // const menuhoverdecoration = "none"; //none, underline, overline, dotted, color (https://www.w3schools.com/cssref/pr_text_text-decoration.asp)
 
 // Header properties
-const headercolor = accentcolor;
+const headercolor = "#12312";
 const headerfontsize = "18pt";
 const headerdecoration = "none";
 const namecolor = accentcolor;
