@@ -112,3 +112,19 @@ a:hover {
           text-decoration: underline;
     } */
 
+.announcement {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.announcement ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.announcement li {
+    margin-bottom: 8px;
+    color: #333;
+}
+
