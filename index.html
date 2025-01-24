@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Master's Student in the Computer Science and Engineering Department at University of California, Santa Cruz.">
+    <meta name="description" content="Ph.D Student in the Computer Science and Engineering Department at University of California, Santa Cruz.">
     <meta name="author" content="Saaket Agashe">
     <!-- <meta name="theme-color" content="#0056b3"> -->
 
@@ -26,8 +26,8 @@
         <div class="col-md-4 pt-3">
             <div class="fixed-posi">
                 <p class="name">Saaket Agashe</p>
-                <img src="images/profile-pixel.jpeg" class="profilepic pt-3 pb-2">
-                <div class="pt-5 menur"><a class="menulink" target="_blank" href="assets/Resume.pdf">Curriculum Vitae</a></div>
+                <img src="images/profile-photo.png" class="profilepic" style="width: 80%; max-width: 350px; object-fit: cover; margin-left: 0;">
+                <div class="pt-3 menur"><a class="menulink" target="_blank" href="assets/Resume.pdf">Curriculum Vitae</a></div>
                 <div class=""><a class="menulink" target="_blank" href="https://scholar.google.com/citations?user=_23KIVgAAAAJ">Google Scholar</a></div>
                 <div class=""><a class="menulink" target="_blank" href="mailto:saagashe@ucsc.edu">Email Address</a></div>
                 <div class=""><a class="menulink" target="_blank" href="https://github.com/saa1605">GitHub Profile</a></div>
@@ -36,9 +36,15 @@
             </div>
         </div>
         <div class="col-md-8 pt-5 about">
-            <p>I am Saaket Agashe, a Ph.D student at the University of California, Santa Cruz where I work with Prof. Xin Eric Wang. My research interests lie in the intersection of NLP, Embodied AI, and Human-AI Collaboration. My research goal is to develop agents and systems that can co-exist and collaborate with humans in a shared environment.  Currently, I am exploring the use of Foundation Models (LLMs, LVLMs) for multi-agent coordination.</p>
-            <p>Previously, as a Master's student at UCSC, I worked on <a class="in-text" href="https://github.com/saa1605/lsd/" target="_blank">Language Grounding and Vision and Language Navigation.</a></p>
-            <p>I graduated with a B.Tech in Electronics Engineering from <a class="in-text" href="https://www.vjti.ac.in/" target="_blank">VJTI</a>, Mumbai, India in 2020, where I focused on <a class="in-text" href="https://github.com/SRA-AVITRA/" target="_blank">Robotics.</a></p>
+            <p>I am a second-year Ph.D. student in the <a href="https://eric-ai-lab.github.io/">ERIC Lab</a> at <a href="https://www.ucsc.edu/">UC Santa Cruz</a>, under the guidance of Professor <a href="https://eric-xw.github.io/">Xin Eric Wang</a>. Prior to this, I earned my Master's degree in Computer Science at <a href="https://www.ucsc.edu/">UC Santa Cruz</a> and completed my Bachelor's in Electronics Engineering from <a href="https://vjti.ac.in/">VJTI, Mumbai</a>.</p>
+
+            <p>I am interested in developing AI agents that can plan effectively, adapt to novel environments and collaborate with others. Specifically I work on:</p>
+            <ul>
+                <li><strong>Long-horizon Planning</strong>: Developing strategies that enable Agents to plan effectively in long-horizon, partially observable environments [<a href="#agent-s" title="Agent S: An Open Agentic Framework that Uses Computers Like a Human">1</a>]</li>
+                <li><strong>Multi-agent Cooperation and Alignment</strong>: Analyzing and Enhancing cooperative behaviour in Agents and their alignment to humans [<a href="#agent-s" title="Agent S: An Open Agentic Framework that Uses Computers Like a Human">1</a>, <a href="#llm-coordination" title="LLM-Coordination: Evaluating and Analyzing Multi-agent Coordination Abilities in Large Language Models">2</a>, <a href="#prediction" title="Interacting with Next-Phrase Suggestions: How Suggestion Systems Aid and Influence the Cognitive Processes of Writing">5</a>]</li>
+                <li><strong>Language Grounding</strong>: Enabling agents to effectively localize and connect linguistic descriptions to visual scenes [<a href="#agent-s" title="Agent S: An Open Agentic Framework that Uses Computers Like a Human">1</a>, <a href="#lsd" title="Localization using Spatial Descriptions">4</a>]</li>
+            </ul>
+            
             <p>For more details, check my <a class="in-text" href="assets/Resume.pdf" target="_blank">CV</a> or drop me an <a class="in-text" href="mailto:saagashe@ucsc.edu">email</a>.</p>
 
             <p class="header">Announcements</p>
@@ -52,7 +58,8 @@
             <p class="header">Research</p>
 
             <div class="py-2">
-                <p class="paper my-2 pl-2">
+                <p class="paper my-2 pl-2" id="agent-s">
+                    <span class="paper-number">[1]</span>
                     <span class="papertitle">Agent S: An Open Agentic Framework that Uses Computers Like a Human</span><br>
                     <span class="thisauthor">Saaket Agashe</span>, Jiuzhou Han, Shuyu Gan, Jiachen Yang, Ang Li, Xin Eric Wang<br>
                     <strong>Description:</strong> Developed Agent S, an advanced OS-level GUI automation system that integrates experience-based learning, web retrieval, and hierarchical planning for efficient task execution, achieving state-of-the-art performance in the OSWorld benchmark..<br>
@@ -63,7 +70,8 @@
             </div>
 
             <div class="py-2">
-                <p class="paper my-2 pl-2">
+                <p class="paper my-2 pl-2" id="llm-coordination">
+                    <span class="paper-number">[2]</span>
                     <span class="papertitle">LLM-Coordination: Evaluating and Analyzing Multi-agent Coordination Abilities in Large Language Models</span><br>
                     <span class="thisauthor">Saaket Agashe</span>, Yue Fan, Anthony Reyna, Xin Eric Wang<br>
                     <strong>Description:</strong> Introduced the LLM-Coordination Benchmark and conducted a comprehensive analysis of LLMs in Pure Coordination Games.<br>
@@ -74,6 +82,7 @@
             </div>
             <div class="py-2">
                 <p class="paper my-2 pl-2">
+                    <span class="paper-number">[3]</span>
                     <span class="papertitle">Athena 3.0: Personalized multimodal chatbot with neuro-symbolic dialogue generators</span><br>
                     <span class="thisauthor">UCSC Team Athena</span><br>
                     <strong>Description:</strong> Entry to Alexa Prize Social Bot Grand Challenge that earned second place in scientific innovation category <br>
@@ -82,9 +91,9 @@
                 </p>
             </div>
             <div class="py-2">
-                <p class="paper my-2 pl-2">
-                    <span class="papertitle">Localization using Spatial Descriptions</span>
-                    <br>
+                <p class="paper my-2 pl-2" id="lsd">
+                    <span class="paper-number">[4]</span>
+                    <span class="papertitle">Localization using Spatial Descriptions</span><br>
                     <span class="thisauthor">Saaket Agashe</span>, Xin Eric Wang
                     <br>
                     <span><strong>Description:</strong> Visually grounding Spatial Descriptions to a single point in an image based on descriptions of objects in the neighborhood of the point. </span>
@@ -95,9 +104,9 @@
                 </div>
 
                 <div class="py-2">
-                <p class="paper my-2 pl-2">
-                    <span class="papertitle">Interacting with Next-Phrase Suggestions: How Suggestion Systems Aid and Influence the Cognitive Processes of Writing</span>
-                    <br>
+                <p class="paper my-2 pl-2" id="prediction">
+                    <span class="paper-number">[5]</span>
+                    <span class="papertitle">Interacting with Next-Phrase Suggestions: How Suggestion Systems Aid and Influence the Cognitive Processes of Writing</span><br>
                     Advait Bhat, <span class="thisauthor">Saaket Agashe</span>, Niharika Mohile, Parth Oberoi, Ravi Jangir, Anirudha Joshi
                     <br>
                     Best Paper Honourable Mention @ IUI'23
@@ -111,8 +120,8 @@
 
                 <div class="py-2">
                    <p class="paper my-2 pl-2">
-                       <span class="papertitle">How do people interact with biased text prediction models while writing?</span>
-                       <br>
+                       <span class="paper-number">[6]</span>
+                       <span class="papertitle">How do people interact with biased text prediction models while writing?</span><br>
                        Advait Bhat, <span class="thisauthor">Saaket Agashe</span>, Anirudha Joshi
                        <br>
                        First HCI+NLP Workshop @ EACL 2021
@@ -128,8 +137,8 @@
 
                    <div class="py-2">
                        <p class="paper my-2 pl-2">
-                           <span class="papertitle">Perception and Motion Planning for Autonomous mobile manipulator</span>
-                           <br>
+                           <span class="paper-number">[7]</span>
+                           <span class="papertitle">Perception and Motion Planning for Autonomous mobile manipulator</span><br>
                            <span class="thisauthor">Saaket Agashe</span>, Akshay Paralikar, Shweta Kumaran, Shambhavi Kuthe, Aditya Gawali, Hiten Kothari, Shashank Deshmukh, Faruk Kazi
                            <br>
                            <span><strong>Description:</strong> Develop a functional autonomous mobile manipulator for testing algorithms
@@ -139,10 +148,6 @@
                            <a class="tag" href="https://github.com/SRA-AVITRA/manipulator_ws" target="_blank">Code</a>
                        </p>
                     </div>
-            <!-- Additional research entries can be similarly formatted and added here -->
-        </div>
-    </div>
-</div>
 
 <!-- JavaScript Bundle with Popper -->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

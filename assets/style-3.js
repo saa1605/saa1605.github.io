@@ -12,7 +12,7 @@ const highlightcolor = "#111";
 // const highlight = "#111";
 
 // Body properties
-const bodyfontweight = 300;
+const bodyfontweight = 400;
 const bodyfontsize = "12pt";
 const backgroundcolor = "#FFFFFF";
 
@@ -112,3 +112,24 @@ $(".institution").css("color", insttitlecolor);
 $(".institution").css("font-size", insttitlesize);
 $(".years").css("color", instyearcolor);
 $(".years").css("font-size", instyearsize);
+
+// Add click handler for paper citations
+$(document).ready(function() {
+    $('a[href^="#"]').on('click', function(e) {
+        e.preventDefault();
+        
+        const targetId = $(this).attr('href');
+        if (!targetId || targetId === '#') return;
+        
+        const target = document.querySelector(targetId);
+        if (!target) return;
+        
+        $('.paper').removeClass('paper-highlight');
+        $(target).addClass('paper-highlight');
+        
+        target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'center'
+        });
+    });
+});
